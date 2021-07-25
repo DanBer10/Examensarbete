@@ -35,11 +35,11 @@ const ClothesShop = () => {
     setItems(newItems);
   };
 
-    /* gör att sidan ej laddar om när vi trycker på knapparna*/
-    useEffect(() => {
-        console.log("Clothes webshop opened");
-      }, []);
-    
+  /* gör att sidan ej laddar om när vi trycker på knapparna*/
+  useEffect(() => {
+    console.log("Clothes webshop opened");
+  }, []);
+
   return (
     <div className="starsWEB">
       <main>

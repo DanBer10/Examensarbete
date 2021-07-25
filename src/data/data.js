@@ -4,7 +4,7 @@ import { AiOutlineMail, AiOutlineHome } from "react-icons/ai";
 import { FaPizzaSlice, FaTshirt } from "react-icons/fa";
 import { MdAddAPhoto } from "react-icons/md";
 
-const data = [
+const Data = [
   {
     id: 1,
     title: "Blue Cap",
@@ -127,7 +127,7 @@ const data = [
     desc: "A black Brixton cap",
   },
 ];
-export default data;
+export default Data;
 
 export const links = [
   {
